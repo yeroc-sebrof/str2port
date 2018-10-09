@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "str2port"
+version = "0.1.0"
+description = "Convert string to md5 hash, then to port number. No randomization involved."
+authors = ["patarapolw <patarapolw@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "*"
+click = "^7.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+str2port = 'str2port.__main__:cli'
