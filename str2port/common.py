@@ -1,5 +1,8 @@
 import csv
-import importlib.resources
+try:
+    import importlib.resources
+except ImportError:
+    pass
 
 
 class IANAList:
