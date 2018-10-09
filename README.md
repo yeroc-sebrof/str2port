@@ -1,5 +1,8 @@
 # str2port
 
+[![PyPI version shields.io](https://img.shields.io/pypi/v/str2port.svg)](https://pypi.python.org/pypi/str2port/)
+[![PyPI license](https://img.shields.io/pypi/l/str2port.svg)](https://pypi.python.org/pypi/str2port/)
+
 Convert string to md5 hash, then to port numbers. No randomization involved.
 
 Every time you run the script, it will return the same port numbers.
