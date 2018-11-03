@@ -10,7 +10,7 @@ class StrToPort:
         else:
             self.port_range = range(1024, 65536)
 
-        self.h = int(hashlib.md5(s.encode()).hexdigest(), 16)
+        self.h = int(hashlib.sha1(s.encode()).hexdigest(), 32)
 
         self.remaining = self.h
 
